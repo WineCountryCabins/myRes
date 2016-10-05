@@ -276,8 +276,12 @@ button.reservationButton {
 }
 
 .leftBox .smallInput {
-	width: 50%!important;
+	width: 52%!important;
 	float: left!important;
+}
+
+.leftBox .smallInput:first-of-type {
+	width: 48% !important;
 }
 
 .leftBox .smallInput label {
@@ -289,7 +293,7 @@ button.reservationButton {
 }
 
 .leftBox .smallInput select {
-	width: 35px!important;
+	width: 40px!important;
 	margin-left: 5px!important;
 }
 
@@ -385,7 +389,7 @@ span.subtotal {
 }
 
 .hotelDescriptions #images {
-	width: 625px;
+	width: 552px;
 	float: left;
 }
 
@@ -407,7 +411,7 @@ span.subtotal {
 }
 
 #hotelDescription {
-	width: 510px;
+	width: 492px;
 	padding: 15px 30px;
 	margin: 0;
 	float: left;
@@ -419,7 +423,7 @@ span.subtotal {
 }
 
 #hotelAmenities {
-	width: 220px;
+	width: 208px;
 	float: right;
 	padding: 15px 30px;
 	margin-top: -600px;
