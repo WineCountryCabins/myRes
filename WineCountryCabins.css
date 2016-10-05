@@ -127,7 +127,7 @@ button.reservationButton {
 .bh_header {
 	height: 150px;
 	background: #473C34 url("https://www.fessparkerinn.com/assets/images/wccLogoWhite.png") top center no-repeat!important;
-	background-size: contain;
+	background-size: contain !important;
 	margin: 0;
 }
 
