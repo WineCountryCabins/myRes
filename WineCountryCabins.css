@@ -211,6 +211,8 @@ div.leftBoxes {
 	margin: 0!important;
 }
 
+p.leftBoxLabel { border: none; }
+
 .leftBox p.leftBoxLabel,
 p.leftBoxLabel #message {
 	border-bottom: 1px solid #BAADA8;
@@ -499,6 +501,7 @@ a.detailLink + p {
 div.imgAmty {
 	float: left;
 	padding: 0 30px;
+	width: 760px;
 }
 
 .thumbRoom {
@@ -531,6 +534,7 @@ div.ratesContainer {
 	float: none;
 	text-align: center;
 	padding: 30px 15px 30px;
+	width: auto;
 }
 
 form.roomTypeForm { margin: 0; }
@@ -545,6 +549,7 @@ div.ratePlan {
 div.ratePlan a.detailLink {
 	margin: 0;
 	vertical-align: middle;
+	width: auto;
 }
 
 a.detailLink span {
@@ -552,6 +557,7 @@ a.detailLink span {
 	padding: 0 2.5%;
 	color: #D4C5BD;
 	margin: 0 5px;
+	width: auto;
 }
 
 a.detailLink .rateName {
