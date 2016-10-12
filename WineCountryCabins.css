@@ -85,7 +85,7 @@ button#submitCC {
 	/* display: block; */
 }
 
-.roomDescription button#submitCC {
+div.roomDescription button#submitCC {
 	margin: 0 0 0 15px;
 	display: inline-block;
 }
@@ -124,14 +124,14 @@ button.reservationButton {
 
 /* GLOBAL - HEADER / LOGO */
 
-.bh_header {
+div.bh_header {
 	height: 150px;
 	background: #473C34 url("https://www.fessparkerinn.com/assets/images/wccLogoWhite.png") top center no-repeat!important;
 	background-size: contain !important;
 	margin: 0;
 }
 
-.bh_header img {
+div.bh_header img {
 	display: none;
 }
 
@@ -139,17 +139,17 @@ button.reservationButton {
 
 /* GLOBAL - BREADCRUMBS */
 
-.breadcrumbs {
+div.breadcrumbs {
 	margin: 0;
 	padding: 30px 0 0;
 }
 
-.breadcrumbs ul {
+div.breadcrumbs ul {
 	margin: 0;
 	padding: 0;
 }
 
-.breadcrumb {
+li.breadcrumb {
 	display: inline-block!important;
 	width: 24%!important;
 	border: 0!important;
@@ -157,25 +157,25 @@ button.reservationButton {
 	padding: 1em 0 .5em!important;
 }
 
-.breadcrumb.selected {
+li.breadcrumb.selected {
 	color: white!important;
 	border-bottom: 2px solid #fff!important;
 }
 
-.breadcrumb.clickable,
-.breadcrumb.selected.clickable {
+li.breadcrumb.clickable,
+li.breadcrumb.selected.clickable {
 	color: #BAADA8!important;
 	border-bottom: none!important;
 	font-weight: bold!important;
 	cursor: pointer!important;
 }
 
-.breadcrumb.clickable:hover,
-.breadcrumb.selected.clickable:hover {
+li.breadcrumb.clickable:hover,
+li.breadcrumb.selected.clickable:hover {
 	color: white!important;
 }
 
-.breadcrumb span {
+li.breadcrumb span {
 	display: block!important;
 	text-align: center!important;
 	text-transform: uppercase!important;
@@ -183,7 +183,7 @@ button.reservationButton {
 	font-size: 1.2em!important;
 }
 
-.breadcrumb.selected span.bcbottom {}
+li.breadcrumb.selected span.bcbottom {}
 
 .bcdescription {
 	display: block;
@@ -202,7 +202,7 @@ button.reservationButton {
 
 /* GLOBAL - LEFT BOXES */
 
-.leftBoxes {
+div.leftBoxes {
 	float: left!important;
 	width: 260px!important;
 	color: #BAADA8!important;
@@ -211,8 +211,8 @@ button.reservationButton {
 	margin: 0!important;
 }
 
-.leftBox .leftBoxLabel,
-.leftBoxLabel #message {
+.leftBox p.leftBoxLabel,
+p.leftBoxLabel #message {
 	border-bottom: 1px solid #BAADA8;
 	font-weight: bold;
 	padding: 1em 0 .5em;
@@ -236,12 +236,12 @@ button.reservationButton {
 
 /* GLOBAL - LEFT BOX - PROPERTY INFO */
 
-.leftBox.propertyInfo p {
+div.leftBox.propertyInfo p {
 	margin: 0;
 	font-size: 1em;
 }
 
-.leftBox.propertyInfo #hotelName {
+div.leftBox.propertyInfo #hotelName {
 	margin: 0;
 	font-size: 1.5em;
 	text-transform: uppercase;
@@ -249,7 +249,7 @@ button.reservationButton {
 	color: #E6E6E6;
 }
 
-.leftBox.propertyInfo #hotelInfoRedirectUrl {
+div.leftBox.propertyInfo #hotelInfoRedirectUrl {
 	font-weight: bold;
 	margin-bottom: .5em;
 	display: block;
@@ -275,29 +275,29 @@ button.reservationButton {
     float: none!important;
 }
 
-.leftBox .smallInput {
+.leftBox div.smallInput {
 	width: 52%!important;
 	float: left!important;
 }
 
-.leftBox .smallInput:first-of-type {
+.leftBox div.smallInput:first-of-type {
 	width: 48% !important;
 }
 
-.leftBox .smallInput label {
+.leftBox div.smallInput label {
 	margin: .25em .5em .25em 0!important;
 }
 
-.leftBox .smallInput input {
+.leftBox div.smallInput input {
 	width: 30px!important;
 }
 
-.leftBox .smallInput select {
+.leftBox div.smallInput select {
 	width: 40px!important;
 	margin-left: 5px!important;
 }
 
-.leftBox .fullInput,
+.leftBox div.fullInput,
 .leftBox br {
 	clear: both;
 }
@@ -349,14 +349,14 @@ span.costLabel {
 span.costLabel { width: 90px; }
 
 span.value,
-div > .label + .value + span.label,
+div > span.label + span.value + span.label,
 span.total {
 	font-weight: bold;
 	margin: .2em .5em;
 	color: #E6E6E6;
 }
 
-#itinerary > .basic > div > .label + .value + span.label {
+#itinerary > .basic > div > span.label + span.value + span.label {
 	margin: .2em 1.5em .2em 0;
 }
 
@@ -369,7 +369,7 @@ span.subtotal::before {
 	content: '$';
 }
 
-.policies span.total::before {
+div.policies span.total::before {
 	content: '';
 }
 
@@ -457,18 +457,18 @@ span.subtotal {
 
 /* RESULTS PAGE - INDIVIDUAL ROOM TYPES */
 
-.typeContainer {
+div.typeContainer {
 	clear: both;
 	padding-top: 30px;
 	border-top: 1px solid #867D79;
 }
 
-.typeContainer:first-of-type { border-top: none; }
+div.typeContainer:first-of-type { border-top: none; }
 
 
 /* RESULTS PAGE - INDIVIDUAL ROOM - HEADING / DETAIL LINK  */
 
-.detailLink h2, #detailRoomTitle {
+a.detailLink h2, #detailRoomTitle {
 	color: white;
 	margin: 0;
 	font-family: 'Helvetica Neue', Helvetica, sans-serif;
@@ -485,9 +485,9 @@ span.subtotal {
 	color: #E6E6E6;
 }
 
-.detailLink h2:hover { text-decoration: underline; }
+a.detailLink h2:hover { text-decoration: underline; }
 
-.detailLink + p {
+a.detailLink + p {
 	padding: 0 30px 1em;
 	font-size: 1.5em;
 	color: #BAADA8;
@@ -496,7 +496,7 @@ span.subtotal {
 
 /* RESULTS PAGE - INDIVIDUAL ROOM - IMAGE & AMENITIES  */
 
-.imgAmty {
+div.imgAmty {
 	float: left;
 	padding: 0 30px;
 }
@@ -525,7 +525,7 @@ span.subtotal {
 
 /* RESULTS PAGE - INDIVIDUAL ROOM - RATES  */
 
-.ratesContainer {
+div.ratesContainer {
 	margin: 0 auto;
 	clear: both;
 	float: none;
@@ -533,40 +533,40 @@ span.subtotal {
 	padding: 30px 15px 30px;
 }
 
-.roomTypeForm { margin: 0; }
+form.roomTypeForm { margin: 0; }
 
-.ratePlan {
+div.ratePlan {
 	width: 500px;
 	border-top: 1px solid #BAADA8;
 	margin: 0 auto;
 	float: none;
 }
 
-.ratePlan .detailLink {
+div.ratePlan a.detailLink {
 	margin: 0;
 	vertical-align: middle;
 }
 
-.detailLink span {
+a.detailLink span {
 	display: inline-block;
 	padding: 0 2.5%;
 	color: #D4C5BD;
 	margin: 0 5px;
 }
 
-.detailLink .rateName {
+a.detailLink .rateName {
 	font-size: 1.4em;
 	line-height: 1.5em;
 }
 
-.detailLink .averageRate {
+a.detailLink span.averageRate {
 	font-size: 1.6em;
 	line-height: 1;
 }
 
-.averageRate::before { content: '$ '; }
+span.averageRate::before { content: '$ '; }
 
-.avgRate {
+p.avgRate {
 	text-align: center;
 	margin: 0;
 	font-style: italic;
@@ -576,8 +576,8 @@ span.subtotal {
 
 /* _REVIEW PAGE - GUEST INFORMATION FIELDS */
 
-.leftGuest,
-.rightGuest {
+div.leftGuest,
+div.rightGuest {
 	float: left;
 	height: 100%;
 	margin: 0;
@@ -586,26 +586,26 @@ span.subtotal {
 	color: #BAADA8;
 }
 
-.leftGuest {
+div.leftGuest {
 	width: 340px;
 	margin-left: 30px;
 }
 
-.rightGuest {
+div.rightGuest {
 	width: 390px;
 	padding-left: 0;
 }
 
-.leftGuest h4,
-.rightGuest h4 {
+div.leftGuest h4,
+div.rightGuest h4 {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
 
-.leftGuest label,
-.rightGuest label,
-.leftGuest span.label,
-.rightGuest span.label {
+div.leftGuest label,
+div.rightGuest label,
+div.leftGuest span.label,
+div.rightGuest span.label {
 	display: inline-block;
 	width: 120px;
 	text-align: right;
@@ -614,20 +614,20 @@ span.subtotal {
 	font-weight: normal !important;
 }
 
-.leftGuest label.error,
-.rightGuest label.error {
-	color: red;
+div.leftGuest label.error,
+div.rightGuest label.error {
+	color: lightcoral;
 	position: absolute;
-	margin-left: -120px;
-	margin-top: 3px;
+	margin-left: -145px;
+	margin-top: -6px;
 	z-index: 100;
 }
 
-.leftGuest input,
-.leftGuest select,
-.leftGuest textarea,
-.rightGuest input,
-.rightGuest select {
+div.leftGuest input,
+div.leftGuest select,
+div.leftGuest textarea,
+div.rightGuest input,
+div.rightGuest select {
 	width: 120px;
 	margin: .5em .2em .5em 0;
 	display: inline-block;
@@ -643,27 +643,27 @@ span.subtotal {
     width: 190px;
 }
 
-.rightGuest select#i4Go_ExpirationYear {
+div.rightGuest select#i4Go_ExpirationYear {
 	width: 62px;
 }
 
-.rightGuest select#i4Go_ExpirationMonth {
+div.rightGuest select#i4Go_ExpirationMonth {
 	width: 120px;
 }
 
-.leftGuest input,
-.leftGuest select,
-.leftGuest span.value,
-.rightGuest span.value {
+div.leftGuest input,
+div.leftGuest select,
+div.leftGuest span.value,
+div.rightGuest span.value {
 	width: 140px;
 	display: inline-block
 }
 
-.leftGuest input[type="checkbox"] {
+div.leftGuest input[type="checkbox"] {
 	width: 1em;
 }
 
-.leftGuest textarea {
+div.leftGuest textarea {
 	width: 90%;
 	margin: 0;
 }
@@ -689,18 +689,18 @@ span.subtotal {
 
 /* CONFIRMATION PAGE */
 
-.leftGuest.confPage {
+div.leftGuest.confPage {
 	margin: 0;
 	padding: 0 30px;
 	width: 325px;
 }
 
-.rightGuest.confPage {
+div.rightGuest.confPage {
 	padding: 0 30px 0 0;
 	width: 330px;
 }
 
-#reservation-message {
+div#reservation-message {
 	border: 1px solid #BAADA8;
 	color: #fff;
 	padding: 1em 30px;
@@ -708,30 +708,30 @@ span.subtotal {
 	height: 3em;
 }
 
-.smallForm {
+form.smallForm {
 	display: inline;
 }
 
-.res-action {
+form.res-action {
 	display: inline-block;
 	float: right;
 	margin: 0;
 }
 
-.status-item {
+div.status-item {
 	display: none;
 	font-size: 1.2em;
 	line-height: 3em;
 }
 
-.confRight {
+div.confRight {
 	width: 750px;
 	float: left;
 	background-color: #6A5B55;
 	margin-left: 30px;
 }
 
-.roomDescription {
+div.roomDescription {
 	clear: both;
 	padding-top: 1em;
 	margin: 2em;
@@ -756,7 +756,7 @@ div .confPage {
 	height: auto;
 }
 
-.policies {
+div.policies {
 	margin: 2em;
 	margin-top: 0;
 	color: #BAADA8;
