@@ -553,10 +553,11 @@ div.ratePlan a.detailLink {
 }
 
 a.detailLink span {
-	display: inline-block;
+	display: inline;
 	padding: 0 2.5%;
 	color: #D4C5BD;
 	margin: 0 5px;
+	float: none;
 	width: auto;
 }
 
