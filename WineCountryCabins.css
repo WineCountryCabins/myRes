@@ -549,7 +549,7 @@ div.ratePlan {
 div.ratePlan a.detailLink {
 	margin: 0;
 	vertical-align: middle;
-	width: auto;
+	width: 50%;
 }
 
 a.detailLink span {
