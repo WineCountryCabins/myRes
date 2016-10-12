@@ -562,12 +562,14 @@ a.detailLink span {
 
 a.detailLink .rateName {
 	font-size: 1.4em;
-	line-height: 1.5em;
+	line-height: 30px;
+	vertical-align: middle;
 }
 
 a.detailLink span.averageRate {
 	font-size: 1.6em;
-	line-height: 1;
+	line-height: 30px;
+	vertical-align: middle;
 }
 
 span.averageRate::before { content: '$ '; }
