@@ -625,11 +625,7 @@ div.rightGuest span.label {
 
 div.leftGuest label.error,
 div.rightGuest label.error {
-	color: lightcoral;
-	position: absolute;
-	margin-left: -145px;
-	margin-top: -6px;
-	z-index: 100;
+	color: lightcoral !important;
 }
 
 div.leftGuest input,
