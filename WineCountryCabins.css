@@ -74,55 +74,52 @@ button.reservationButton {
 /* GLOBAL - HEADER / LOGO */
 div.bh_header {
   height: 150px;
-  background: #473C34 url("https://www.fessparkerinn.com/assets/images/wccLogoWhite.png") top center no-repeat !important;
-  background-size: contain !important;
-  margin: 0; }
-
-div.bh_header img {
-  display: none; }
+  margin: 0;
+  background: #3c3835 url("https://www.fessparkerinn.com/assets/images/wccLogoWhite.png") top center no-repeat !important;
+  background-size: contain !important; }
+  div.bh_header img {
+    display: none; }
 
 /* GLOBAL - BREADCRUMBS */
 div.breadcrumbs {
+  padding: 30px 0 0;
   margin: 0;
-  padding: 30px 0 0; }
-
-div.breadcrumbs ul {
-  margin: 0;
-  padding: 0; }
+  background-color: #404044; }
+  div.breadcrumbs ul {
+    padding: 0;
+    margin: 0; }
 
 li.breadcrumb {
-  color: #867D79 !important;
-  padding: 1em 0 .5em !important; }
-
-li.breadcrumb.selected {
-  color: white !important;
-  border-bottom: 2px solid #fff !important; }
-
-li.breadcrumb.clickable,
-li.breadcrumb.selected.clickable {
-  color: #BAADA8 !important;
-  border-bottom: none !important;
-  font-weight: bold !important; }
-
-li.breadcrumb.clickable:hover,
-li.breadcrumb.selected.clickable:hover {
-  color: white !important; }
-
-li.breadcrumb span {
-  text-transform: uppercase !important;
-  letter-spacing: 1px !important;
-  font-size: 1.2em !important; }
+  padding: 1em 0 .5em !important;
+  color: #BAADA8 !important; }
+  li.breadcrumb.selected {
+    border-bottom: 2px solid white !important;
+    color: white !important; }
+    li.breadcrumb.selected.clickable {
+      font-weight: bold !important; }
+      li.breadcrumb.selected.clickable:hover {
+        color: white !important; }
+  li.breadcrumb.clickable {
+    border-bottom: none !important;
+    color: #BAADA8 !important;
+    font-weight: bold !important; }
+    li.breadcrumb.clickable:hover {
+      color: white !important; }
+  li.breadcrumb span {
+    font-size: 1.2em !important;
+    letter-spacing: 1px !important;
+    text-transform: uppercase !important; }
 
 .bcdescription {
   display: block;
-  text-align: left;
-  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  padding: 1.5em 15px 1em;
+  background-color: #3c3835;
+  color: #BAADA8;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-size: 1.8em;
   font-weight: 200;
   letter-spacing: 1px;
-  color: #BAADA8;
-  background-color: #473C34;
-  padding: 1.5em 15px 1em; }
+  text-align: left; }
 
 /* GLOBAL - LEFT BOXES */
 div.leftBoxes {
