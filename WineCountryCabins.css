@@ -1,13 +1,18 @@
 /* GLOBAL - GENERAL */
 html,
-body {
-  background-color: #473C34 !important; }
+body,
+.skeleton {
+  background-color: #3c3835 !important; }
 
 body {
   padding: 30px;
   margin: 5px;
-  font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
   font-size: 13px; }
+
+.skeleton {
+  width: 1140px;
+  height: 100%; }
 
 a,
 .brownLink,
@@ -21,59 +26,50 @@ a:hover,
 #detailMenu li.selected {
   color: white; }
 
-.skeleton {
-  width: 1140px;
-  height: 100%;
-  background-color: #473C34; }
-
 /* GLOBAL - BUTTONS */
 button,
 button.search {
   display: inline-block;
   clear: both;
   float: none;
-  margin: 1em 0 .5em;
   width: 120px;
-  background-color: #BAADA8;
-  font-weight: bold;
-  color: #6A5B55;
   padding: .5em 1em;
+  margin: 1em 0 .5em;
   border: none;
+  background-color: rgba(186, 173, 168, 0.8);
+  color: #6A5B55;
   font-size: 1.1em;
+  font-weight: bold;
   text-transform: uppercase; }
-
-button:hover,
-button.search:hover {
-  background-color: #D4C5BD; }
+  button:hover,
+  button.search:hover {
+    background-color: #dcd5d3; }
 
 button#submitCC {
   margin: 1em auto; }
-
-div.roomDescription button#submitCC {
-  margin: 0 0 0 15px;
-  display: inline-block; }
+  div.roomDescription button#submitCC {
+    display: inline-block;
+    margin: 0 0 0 15px; }
 
 button.inline {
-  margin: 0 0 0 30px;
-  font-size: .9em;
   width: auto;
   padding: .4em 1em;
+  margin: 0 0 0 30px;
+  font-size: .9em;
   text-align: right; }
 
 button.reservationButton {
   width: 100px;
-  font-size: 1em;
-  margin: .5em 1em 0 0; }
-
-.cancel-form button.reservationButton {
-  background-color: transparent;
-  border: 1px solid #BAADA8;
-  color: #BAADA8;
-  width: auto; }
-
-.cancel-form button.reservationButton:hover {
-  background-color: #BAADA8;
-  color: #6A5B55; }
+  margin: .5em 1em 0 0;
+  font-size: 1em; }
+  .cancel-form button.reservationButton {
+    width: auto;
+    border: 1px solid #BAADA8;
+    background-color: transparent;
+    color: #BAADA8; }
+  .cancel-form button.reservationButton:hover {
+    background-color: #BAADA8;
+    color: #6A5B55; }
 
 /* GLOBAL - HEADER / LOGO */
 div.bh_header {
