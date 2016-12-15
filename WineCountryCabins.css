@@ -123,72 +123,68 @@ li.breadcrumb {
 /* GLOBAL - LEFT BOXES */
 div.leftBoxes {
   width: 260px !important;
-  color: #BAADA8 !important;
-  background-color: #6A5B55 !important;
   padding: 15px !important;
-  margin: 0 !important; }
+  margin: 0 !important;
+  background-color: #27272a !important;
+  color: #BAADA8 !important; }
 
 p.leftBoxLabel {
   border: none; }
+  .leftBox p.leftBoxLabel,
+  p.leftBoxLabel #message {
+    padding: 1em 0 .5em;
+    border-bottom: 1px solid #BAADA8;
+    color: #E6E6E6;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em; }
 
-.leftBox p.leftBoxLabel,
-p.leftBoxLabel #message {
-  border-bottom: 1px solid #BAADA8;
-  font-weight: bold;
-  padding: 1em 0 .5em;
-  color: #E6E6E6;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: 1.1em; }
-
-.leftBox label {
+div.leftBox label {
   display: inline-block !important;
   clear: both !important;
   float: none !important;
-  vertical-align: middle !important;
   width: 65px !important;
-  font-size: .9em !important;
   margin: .5em .5em .5em 0 !important;
+  vertical-align: middle !important;
+  font-size: .9em !important;
   text-align: left !important; }
 
-/* GLOBAL - LEFT BOX - PROPERTY INFO */
 div.leftBox.propertyInfo p {
   font-size: 1em; }
 
 div.leftBox.propertyInfo #hotelName {
+  color: #E6E6E6;
   text-transform: uppercase;
-  letter-spacing: 1px;
-  color: #E6E6E6; }
+  letter-spacing: 1px; }
 
-/* GLOBAL - LEFT BOX - MAKE RESERVATION */
-.leftBox input,
-.leftBox select {
-  width: 120px !important;
-  margin: .5em .2em .5em 0 !important;
+div.leftBox input, div.leftBox select {
   display: inline-block !important;
-  background-color: #867D79 !important;
-  border: 1px solid #BAADA8 !important;
-  color: #E6E6E6 !important;
+  width: 120px !important;
   padding: .25em .5em !important;
-  font-size: 1em !important;
-  vertical-align: middle !important; }
+  margin: .5em .2em .5em 0 !important;
+  vertical-align: middle !important;
+  border: 1px solid #BAADA8 !important;
+  background-color: rgba(134, 125, 121, 0.5) !important;
+  color: #E6E6E6 !important;
+  font-size: 1em !important; }
 
-.leftBox fieldset input {
+div.leftBox fieldset input {
   float: none !important; }
 
-.leftBox div.smallInput {
+div.leftBox div.smallInput {
   width: 52% !important; }
 
-.leftBox div.smallInput:first-of-type {
+div.leftBox:first-of-type {
   width: 48% !important; }
 
-.leftBox div.smallInput label {
+div.leftBox label {
   margin: .25em .5em .25em 0 !important; }
 
-.leftBox div.smallInput input {
+div.leftBox input {
   width: 30px !important; }
 
-.leftBox div.smallInput select {
+div.leftBox select {
   width: 40px !important;
   margin-left: 5px !important; }
 
@@ -202,17 +198,16 @@ div.leftBox.propertyInfo #hotelName {
   display: block;
   clear: both;
   float: none;
+  padding: 1em 0 0;
   text-transform: uppercase;
-  letter-spacing: 1px;
-  padding: 1em 0 0; }
-
-#showMoreOptions:hover {
-  text-decoration: underline; }
+  letter-spacing: 1px; }
+  #showMoreOptions :hover {
+    text-decoration: underline; }
 
 /* GLOBAL - LEFT BOX - EDIT RESERVATION */
 .leftBox.editReservation fieldset.basic label {
-  font-size: 1em;
-  width: 85px; }
+  width: 85px;
+  font-size: 1em; }
 
 /* RESULTS & _REVIEW PAGE - LEFT BOX - ITINERARY */
 span.costLabel {
@@ -221,9 +216,9 @@ span.costLabel {
 span.value,
 div > span.label + span.value + span.label,
 span.total {
-  font-weight: bold;
   margin: .2em .5em;
-  color: #E6E6E6; }
+  color: #E6E6E6;
+  font-weight: bold; }
 
 #itinerary > .basic > div > span.label + span.value + span.label {
   margin: .2em 1.5em .2em 0; }
@@ -278,7 +273,8 @@ div.policies span.total::before {
     font-size: 1em;
     font-style: italic; }
     #hotelDescription .hotelFinePrint strong {
-      color: #81BCEB; }
+      color: #81BCEB;
+      letter-spacing: normal; }
 
 #hotelAmenities {
   float: right;
@@ -298,7 +294,7 @@ div.policies span.total::before {
 #amenities {
   padding: 0 0 0 30px; }
   #amenities li {
-    margin-bottom: .75em; }
+    margin-bottom: .5em; }
 
 /* RESULTS PAGE - INVENTORY */
 #inventory {
