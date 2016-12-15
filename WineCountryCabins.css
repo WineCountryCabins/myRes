@@ -92,7 +92,7 @@ li.breadcrumb {
   padding: 1em 0 .5em !important;
   color: #BAADA8 !important; }
   li.breadcrumb.selected {
-    border-bottom: 2px solid white !important;
+    border-bottom: 2px solid #81BCEB !important;
     color: white !important; }
     li.breadcrumb.selected.clickable {
       font-weight: bold !important; }
@@ -263,7 +263,7 @@ div.policies span.total::before {
   margin: 0;
   color: #BAADA8;
   font-family: "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 1.5em;
+  font-size: 1.4em;
   font-weight: 200;
   letter-spacing: .1em; }
   #hotelDescription .hotelTitle {
@@ -276,7 +276,8 @@ div.policies span.total::before {
     font-style: italic; }
   #hotelDescription .hotelFinePrint {
     font-size: 1em;
-    font-style: italic; }
+    font-style: italic;
+    color: white; }
 
 #hotelAmenities {
   float: right;
