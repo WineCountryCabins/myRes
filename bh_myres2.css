@@ -1,0 +1,415 @@
+body, html {
+    height: 100%
+}
+
+.clearAll {
+    clear: both
+}
+
+.hidden {
+    display: none
+}
+
+div.bh_header img {
+    margin: 1em auto
+}
+
+div.bh_header {
+    text-align: center;
+    background-color: lightgrey;
+    width: 100%
+}
+
+body {
+    background-color: lightgrey;
+    font-family: 'Lucinda Grande', Arial, sans-serif;
+    font-size: .8em;
+}
+
+.skeleton {
+    width: 980px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 0;
+}
+
+div.breadcrumbs {
+    border-bottom: 1px grey;
+    clear: both
+}
+
+li.breadcrumb {
+    display: inline-block;
+    width: 24%;
+    border: 0;
+    padding: 0;
+    color: grey;
+    padding: 0 auto;
+}
+
+li.breadcrumb span.bcbottom {
+    font-weight: bold;
+}
+
+div.breadcrumbs li.selected {
+    color: black;
+}
+
+div.breadcrumbs li.clickable {
+    cursor: pointer;
+}
+
+li.breadcrumb span {
+    display: block;
+    text-align: center;
+}
+
+.bcdescription {
+    border-top: 1px grey;
+    font-size: 1.5em;
+    color: grey;
+    padding: .2em .5em;
+    margin: 0;
+}
+
+button.reservationButton {
+    float: right;
+    margin-right: 1em;
+}
+
+div.leftBoxes {
+    float: left;
+    width: 306px;
+    background-color: #ededed;
+    padding: 15px 15px 2em 15px;
+}
+
+div.propertyInfo p {
+    margin: 0;
+    font-size: .9em;
+}
+
+div.propertyInfo #hotelName {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+#hotelInfoRedirectUrl {
+    font-weight: bold;
+    margin-bottom: .5em;
+    display: block;
+}
+
+#detailMenu li , a, .brownLink {
+    color: #7b4200;
+    text-decoration: none;
+    font-size: 1em;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#detailMenu li:hover , #detailMenu li.selected , a:hover, .brownLink:hover {
+    color: black;
+}
+
+p.leftBoxLabel {
+    border-bottom: 1px solid black;
+    font-weight: bold;
+    padding: .2em;
+}
+
+fieldset {
+    border: 0;
+}
+
+.leftBox fieldset label {
+    display: block;
+    float: left;
+    width: 80px;
+    text-align: right;
+    margin: .2em .5em;
+}
+
+.leftBox fieldset input {
+    width: 120px;
+    margin: .2em;
+    display: block;
+    float: left;
+}
+
+#noSmoking {
+    width: auto
+}
+
+#images img {
+    border: 1px solid white;
+    margin: 1px
+}
+
+.leftBox div.smallInput {
+    width: 100%;
+    float: left;
+}
+
+.leftBox div.smallInput input, .leftBox div.small select {
+    width: 40px
+}
+
+.leftBox div.fullInput {
+    clear: both
+}
+
+.leftBox br {
+    clear: both;
+}
+
+button.search {
+    display: block;
+    margin: .5em 20px .5em 80px;
+    width: 120px;
+    background-color: grey;
+    font-weight: bold;
+    color: white;
+    padding: .4em;
+}
+
+#descriptions {
+    height: 100%
+}
+
+#images img {
+    float: left;
+}
+
+#hotelDescription {
+    width: 360px;
+    padding: 0 20px;
+    float: left
+}
+
+#hotelAmenities {
+    width: 200px;
+    float: left;
+}
+
+div.imgAmty {
+    width: 200px;
+    float: left;
+}
+
+div.typeContainer {
+    clear: both;
+    padding-top: 1em;
+}
+
+div.ratesContainer {
+    float: right;
+    width: 400px;
+}
+
+p.avgRate {
+    text-align: right;
+    margin-right: 1em;
+}
+
+form.roomTypeForm {
+    margin-bottom: 0
+}
+
+#inventory {
+    float: left;
+    width: 614px;
+    background-color: white;
+    padding-left: 10px
+}
+
+div.ratePlan {
+    width: 380px;
+    border-top: 1px solid grey;
+    margin: 0 10px;
+    padding: .5em 0
+}
+
+div.ratePlan a.detailLink {
+    display: inline-block;
+    width: 300px;
+}
+
+a.detailLink span {
+    width: 45%;
+    display: inline-bock;
+    float: left;
+    padding: 0 2.5%;
+}
+
+a.detailLink span.averageRate {
+    text-align: right;
+}
+
+button.selectProduct {}
+
+fieldset.basic div {}
+
+span.label, span.costLabel {
+    display: inline-block;
+    width: 28%;
+    text-align: right;
+    margin: .2em .5em
+}
+
+span.value, span.total {
+    font-weight: bold;
+    margin: .2em .5em
+}
+
+span.subtotal {
+    margin: .2em .5em
+}
+
+button.inline {
+    display: inline-block;
+    margin-left: 120px;
+}
+
+div.leftGuest, div.rightGuest {
+    float: left;
+    width: 300px;
+    height: 100%;
+}
+
+div.leftGuest label, div.rightGuest label, div.leftGuest span.label,
+div.rightGuest span.label {
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+    color: grey;
+}
+
+div.leftGuest input, div.leftGuest select, div.leftGuest span.value,
+div.rightGuest span.value {
+    width: 140px;
+    display: inline-block
+}
+
+div.leftGuest label.error, div.rightGuest label.error {
+    color: red;
+    position: absolute;
+    margin-left: -120px;
+    margin-top: 3px;
+    z-index: 100;
+}
+
+div.leftGuest input[type="checkbox"] {
+    width: 1em
+}
+
+div.leftGuest textarea {
+    width: 90%;
+    margin: 0 1em
+}
+
+form.smallForm {
+    display: inline;
+}
+
+form.res-action {
+    display: inline;
+}
+
+button.reservationButton {
+    width: 11em;
+    position: relative;
+    top: -.2em
+}
+
+div#reservation-message {
+    background-color: green;
+    color: white;
+    padding: .4em .8em;
+    margin: 0
+}
+
+#detailMenu {
+    background-color: lightgrey;
+    margin: 0;
+    margin-bottom: -1px;
+    padding: .5em .5em 0 .5em;
+}
+
+#detailMenu li {
+    display: inline-block;
+    background: lightgrey;
+    padding: .2em 1em;
+}
+
+#detailMenu li.selected {
+    background: white;
+}
+
+#detailRateTitle, #detailRoomTitle {
+    font-size: 1.5em
+}
+
+#detailImage {
+    float: left;
+    width: 300px;
+}
+
+.roomDetailRight {
+    float: left;
+    width: 400px;
+    margin-left: 2em
+}
+
+.rateDetailLeft {
+    display: inline-block;
+    width: 60%
+}
+
+#productList {
+    display: block;
+    width: auto;
+    float: right
+}
+
+.taxFees td, .taxFees th, #productList td, #productList th {
+    border-bottom: 1pt solid black;
+    border-collapse: collapse;
+    padding: .2em 1em;
+}
+
+.taxFees {
+    margin: 2em auto;
+}
+
+div.confRight {
+    width: 600px;
+    float: left
+}
+
+div.roomDescription {
+    clear: both;
+    padding-top: 1em;
+    margin: 2em
+}
+
+div div.confPage {
+    height: auto;
+}
+
+div.policies {
+    margin: 2em;
+    margin-top: 0
+}
+
+.detailLink h2:hover {
+    text-decoration: underline;
+}
+
+div.status-item {
+    display: none;
+}
+
+#logoContainer img {
+    height: 150px;
+}
