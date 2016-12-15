@@ -276,24 +276,29 @@ div.policies span.total::before {
     font-style: italic; }
   #hotelDescription .hotelFinePrint {
     font-size: 1em;
-    font-style: italic;
-    color: white; }
+    font-style: italic; }
+    #hotelDescription .hotelFinePrint strong {
+      color: #81BCEB; }
 
 #hotelAmenities {
   float: right;
   width: 208px;
   padding: 15px 30px;
   margin-top: -550px;
-  color: #BAADA8; }
+  color: #BAADA8;
+  font-size: 16px;
+  line-height: 1.2em; }
   #hotelAmenities p {
     padding: 0 0 .5em 0;
-    border-bottom: 1px solid #BAADA8;
+    border-bottom: 1px solid #81BCEB;
     color: white;
-    font-size: 1.5em;
+    font-size: 1.25em;
     text-transform: uppercase; }
 
 #amenities {
   padding: 0 0 0 30px; }
+  #amenities li {
+    margin-bottom: .75em; }
 
 /* RESULTS PAGE - INVENTORY */
 #inventory {
