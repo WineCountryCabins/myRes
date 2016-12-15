@@ -267,9 +267,10 @@ div.policies span.total::before {
   font-weight: 200;
   letter-spacing: .1em; }
   #hotelDescription .hotelTitle {
-    font-size: 2em;
+    font-size: 1.8em;
     text-transform: uppercase;
-    letter-spacing: 2px; }
+    letter-spacing: .1em;
+    color: white; }
   #hotelDescription .hotelSubtitle {
     font-size: 1.4em;
     font-style: italic; }
