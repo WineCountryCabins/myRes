@@ -449,8 +449,8 @@ p.avgRate {
 div.leftGuest,
 div.rightGuest {
   margin: 0;
-  background-color: #6A5B55;
-  padding: 30px 30px;
+  background-color: inherit;
+  padding: 0 30px 30px;
   color: #BAADA8; }
 
 div.leftGuest {
