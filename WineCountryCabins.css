@@ -453,9 +453,8 @@ div.rightGuest {
   color: #BAADA8; }
 
 div.leftGuest {
-  width: 340px;
-  margin-left: 30px;
-  padding-right: 0; }
+  width: 310px;
+  margin-left: 30px; }
 
 div.rightGuest {
   width: 390px; }
@@ -465,6 +464,7 @@ div.rightGuest h4 {
   text-transform: uppercase;
   letter-spacing: 2px;
   padding-bottom: .4em;
+  margin-top: 0;
   margin-bottom: .8em;
   border-bottom: 1px solid #81BCEB; }
 
@@ -494,6 +494,12 @@ div.rightGuest select {
   padding: .25em .5em;
   font-size: 1em;
   vertical-align: middle; }
+
+.leftGuest #guestInfo > div:last-child {
+  margin-top: 1em; }
+
+.rightGuest .ccForm {
+  margin-bottom: 1em; }
 
 #i4Go_CardholderName, #i4Go_CardNumber {
   width: 190px; }
