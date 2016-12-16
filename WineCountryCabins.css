@@ -118,7 +118,6 @@ li.breadcrumb {
       li.breadcrumb.selected.clickable:hover {
         color: white !important; }
   li.breadcrumb.clickable {
-    border-bottom: none !important;
     color: #BAADA8 !important;
     font-weight: bold !important; }
     li.breadcrumb.clickable:hover {
