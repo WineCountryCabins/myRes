@@ -183,6 +183,12 @@ div.leftBox div.smallInput {
   div.leftBox div.smallInput select {
     width: 40px !important;
     margin-left: 5px !important; }
+  div.leftBox div.smallInput input.error {
+    border: 1px solid #81BCEB; }
+  div.leftBox div.smallInput label.error {
+    width: auto !important;
+    color: #81BCEB;
+    font-weight: bold; }
 
 .ui-datepicker-trigger {
   margin: 0 0 -.5em; }
