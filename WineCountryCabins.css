@@ -51,11 +51,11 @@ button {
     button.search:hover {
       background-color: #81BCEB;
       color: #404044; }
-  #lookupForm button.search {
+  .editReservation button.search {
     border: 1px solid #BAADA8;
     background-color: transparent;
     color: #BAADA8; }
-    #lookupForm button.search:hover {
+    .editReservation button.search:hover {
       background-color: #BAADA8;
       color: #6A5B55; }
 
@@ -71,6 +71,13 @@ button.inline {
   margin: 0 0 0 30px;
   font-size: .9em;
   text-align: right; }
+  #itinerary button.inline {
+    border: 1px solid #BAADA8;
+    background-color: transparent;
+    color: #BAADA8; }
+    #itinerary button.inline:hover {
+      background-color: #BAADA8;
+      color: #6A5B55; }
 
 button.reservationButton {
   width: 100px;
