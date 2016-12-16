@@ -163,6 +163,10 @@ div.leftBoxes {
   line-height: 1.4;
   border: 1px solid #81BCEB; }
 
+#detailDialog ~ .skeleton > p.leftBoxLabel,
+.ui-dialog[aria-describedby='detailDialog'] ~ .skeleton > p.leftBoxLabel {
+  display: none; }
+
 .leftBox p.leftBoxLabel {
   padding: 1em 0 .5em;
   border-bottom: 1px solid #81BCEB;
@@ -412,7 +416,7 @@ div.ratePlan {
 div.ratePlan a.detailLink {
   margin: 0;
   vertical-align: middle;
-  width: 50%; }
+  display: inline; }
 
 a.detailLink span {
   display: inline;
