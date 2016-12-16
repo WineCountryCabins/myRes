@@ -496,7 +496,7 @@ div.rightGuest select {
   vertical-align: middle; }
 
 .leftGuest #guestInfo > div:last-child {
-  margin-top: 1em; }
+  margin-top: 2em; }
 
 .rightGuest .ccForm {
   margin-bottom: 1em; }
@@ -511,7 +511,11 @@ div.rightGuest select#i4Go_ExpirationMonth {
   width: 120px; }
 
 div.leftGuest textarea {
-  margin: 0; }
+  margin: 0 auto;
+  width: 100%;
+  min-height: 6em;
+  display: block;
+  margin-top: 2em; }
 
 #agreeToTerms {
   float: left;
