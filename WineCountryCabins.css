@@ -27,23 +27,28 @@ a:hover,
   color: white; }
 
 /* GLOBAL - BUTTONS */
-button,
-button.search {
+button {
   display: inline-block;
   clear: both;
   float: none;
-  width: 120px;
   padding: .5em 1em;
   margin: 1em 0 .5em;
   border: none;
   background-color: rgba(186, 173, 168, 0.8);
   color: #6A5B55;
   font-size: 1.1em;
-  font-weight: bold;
   text-transform: uppercase; }
-  button:hover,
-  button.search:hover {
+  button:hover {
     background-color: #dcd5d3; }
+  button.search {
+    display: inline-block;
+    padding: .5em 1em;
+    margin: 1em 0 .5em;
+    background-color: transparent;
+    color: #81BCEB; }
+    button.search:hover {
+      background-color: #81BCEB;
+      color: white; }
 
 button#submitCC {
   margin: 1em auto; }
@@ -133,7 +138,7 @@ p.leftBoxLabel {
   .leftBox p.leftBoxLabel,
   p.leftBoxLabel #message {
     padding: 1em 0 .5em;
-    border-bottom: 1px solid #BAADA8;
+    border-bottom: 1px solid #81BCEB;
     color: #E6E6E6;
     font-size: 1.1em;
     font-weight: bold;
@@ -189,7 +194,7 @@ div.leftBox div.smallInput {
     width: auto !important;
     color: #81BCEB;
     font-weight: bold;
-    letter-spacing: .1em; }
+    text-transform: uppercase; }
 
 .ui-datepicker-trigger {
   margin: 0 0 -.5em; }
