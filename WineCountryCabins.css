@@ -75,7 +75,7 @@ button.reservationButton {
 div.bh_header {
   height: 150px;
   margin: 0;
-  background: #404044 url("https://www.fessparkerinn.com/assets/images/wccLogoWhite.png") center center no-repeat !important; }
+  background: #3c3835 url("https://www.fessparkerinn.com/assets/images/wccLogoWhite.png") center center no-repeat !important; }
   div.bh_header img {
     display: none; }
 
@@ -83,7 +83,7 @@ div.bh_header {
 div.breadcrumbs {
   padding: 15px 0 0;
   margin: 0;
-  background-color: #404044; }
+  background-color: #3c3835; }
   div.breadcrumbs ul {
     padding: 0;
     margin: 0; }
@@ -125,7 +125,7 @@ div.leftBoxes {
   width: 260px !important;
   padding: 15px !important;
   margin: 0 !important;
-  background-color: #27272a !important;
+  background-color: #404044 !important;
   color: #BAADA8 !important; }
 
 p.leftBoxLabel {
