@@ -454,16 +454,19 @@ div.rightGuest {
 
 div.leftGuest {
   width: 340px;
-  margin-left: 30px; }
+  margin-left: 30px;
+  padding-right: 0; }
 
 div.rightGuest {
-  width: 390px;
-  padding-left: 0; }
+  width: 390px; }
 
 div.leftGuest h4,
 div.rightGuest h4 {
   text-transform: uppercase;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+  padding-bottom: .4em;
+  margin-bottom: .8em;
+  border-bottom: 1px solid #81BCEB; }
 
 div.leftGuest label,
 div.rightGuest label,
