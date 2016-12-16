@@ -74,7 +74,8 @@ button.inline {
   #itinerary button.inline {
     border: 1px solid #BAADA8;
     background-color: transparent;
-    color: #BAADA8; }
+    color: #BAADA8;
+    margin-left: 25px; }
     #itinerary button.inline:hover {
       background-color: #BAADA8;
       color: #6A5B55; }
@@ -333,7 +334,7 @@ div.policies span.total::before {
 /* RESULTS PAGE - INVENTORY */
 #inventory {
   width: 760px;
-  background-color: #6A5B55;
+  background-color: transparent;
   padding: 0 0 30px;
   margin: 0 0 0 30px;
   color: #E6E6E6; }
