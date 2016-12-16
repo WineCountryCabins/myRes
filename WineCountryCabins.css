@@ -184,11 +184,12 @@ div.leftBox div.smallInput {
     width: 40px !important;
     margin-left: 5px !important; }
   div.leftBox div.smallInput input.error {
-    border: 1px solid #81BCEB; }
+    border: 2px solid #81BCEB; }
   div.leftBox div.smallInput label.error {
     width: auto !important;
     color: #81BCEB;
-    font-weight: bold; }
+    font-weight: bold;
+    letter-spacing: .1em; }
 
 .ui-datepicker-trigger {
   margin: 0 0 -.5em; }
@@ -203,13 +204,13 @@ div.leftBox div.smallInput {
   padding: 1em 0 0;
   text-transform: uppercase;
   letter-spacing: 1px; }
-  #showMoreOptions :hover {
+  #showMoreOptions:hover {
     text-decoration: underline; }
 
 /* GLOBAL - LEFT BOX - EDIT RESERVATION */
 .leftBox.editReservation fieldset.basic label {
-  width: 85px;
-  font-size: 1em; }
+  width: 85px !important;
+  font-size: 1em !important; }
 
 /* RESULTS & _REVIEW PAGE - LEFT BOX - ITINERARY */
 span.costLabel {
