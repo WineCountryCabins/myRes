@@ -151,6 +151,10 @@ div.leftBoxes {
   color: #BAADA8 !important; }
 
 .skeleton > p.leftBoxLabel {
+  display: none; }
+
+.skeleton > #inventory:empty ~ p.leftBoxLabel {
+  display: block;
   border-bottom: none;
   width: 700px;
   float: left;
@@ -163,10 +167,8 @@ div.leftBoxes {
   line-height: 1.4;
   border: 1px solid #81BCEB; }
 
-#detailDialog ~ .skeleton > p.leftBoxLabel {
-  display: none; }
-
 .leftBox p.leftBoxLabel {
+  display: block;
   padding: 1em 0 .5em;
   border-bottom: 1px solid #81BCEB;
   color: #E6E6E6;
