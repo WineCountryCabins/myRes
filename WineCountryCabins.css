@@ -163,8 +163,7 @@ div.leftBoxes {
   line-height: 1.4;
   border: 1px solid #81BCEB; }
 
-#detailDialog ~ .skeleton > p.leftBoxLabel,
-.ui-dialog[aria-describedby='detailDialog'] ~ .skeleton > p.leftBoxLabel {
+#detailDialog ~ .skeleton > p.leftBoxLabel {
   display: none; }
 
 .leftBox p.leftBoxLabel {
@@ -175,6 +174,9 @@ div.leftBoxes {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: .1em; }
+
+.ui-widget-content[aria-describedby='detailDialog'] ~ .skeleton > p.leftBoxLabel {
+  display: none; }
 
 div.leftBox label {
   display: inline-block !important;
