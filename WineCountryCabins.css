@@ -148,8 +148,12 @@ div.leftBoxes {
   float: left;
   margin-left: 30px;
   padding: 30px;
-  color: #81BCEB;
-  font-size: 1.2em; }
+  color: white;
+  font-size: 1.4em;
+  font-weight: normal;
+  letter-spacing: .07em;
+  line-height: 1.4;
+  border: 1px solid #81BCEB; }
 
 .leftBox p.leftBoxLabel {
   padding: 1em 0 .5em;
