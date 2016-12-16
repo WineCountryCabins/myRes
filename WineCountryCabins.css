@@ -174,19 +174,15 @@ div.leftBox fieldset input {
 
 div.leftBox div.smallInput {
   width: 52% !important; }
-
-div.leftBox:first-of-type {
-  width: 48% !important; }
-
-div.leftBox label {
-  margin: .25em .5em .25em 0 !important; }
-
-div.leftBox input {
-  width: 30px !important; }
-
-div.leftBox select {
-  width: 40px !important;
-  margin-left: 5px !important; }
+  div.leftBox div.smallInput:first-of-type {
+    width: 48% !important; }
+  div.leftBox div.smallInput label {
+    margin: .25em .5em .25em 0 !important; }
+  div.leftBox div.smallInput input {
+    width: 30px !important; }
+  div.leftBox div.smallInput select {
+    width: 40px !important;
+    margin-left: 5px !important; }
 
 .ui-datepicker-trigger {
   margin: 0 0 -.5em; }
