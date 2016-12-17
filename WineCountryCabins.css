@@ -82,7 +82,13 @@ button {
   button.reservationButton {
     width: 100px;
     margin: .5em 1em 0 0;
-    font-size: 1em; }
+    font-size: 1em;
+    border-color: #81BCEB;
+    background-color: transparent;
+    color: #81BCEB; }
+    button.reservationButton:hover {
+      background-color: #81BCEB;
+      color: #404044; }
     .cancel-form button.reservationButton {
       width: auto;
       border-color: #BAADA8;
@@ -477,7 +483,11 @@ div.rightGuest span.label {
 
 div.leftGuest label.error,
 div.rightGuest label.error {
-  color: lightcoral !important; }
+  color: lightcoral !important;
+  margin-left: 0;
+  text-align: left;
+  line-height: 1;
+  margin-top: .5em; }
 
 div.leftGuest input,
 div.leftGuest select,
@@ -557,7 +567,7 @@ div.status-item {
 
 div.confRight {
   width: 750px;
-  background-color: #6A5B55;
+  background-color: inherit;
   margin-left: 30px; }
 
 div.roomDescription {
@@ -626,7 +636,9 @@ p#detailRoomDescription {
 
 #roomDetail, #rateDetail, #taxFees {
   padding: 15px 30px;
-  background: #2e2b29; }
+  background: #2e2b29;
+  width: 100%;
+  height: 100%; }
 
 #detailImage {
   width: 400px;
@@ -689,6 +701,8 @@ p#detailRoomDescription {
   text-transform: uppercase;
   color: #BAADA8; }
 
-#productBody td {
-  color: white; }
+#productBody td,
+#taxFeesBody td {
+  color: white;
+  border-color: transparent; }
 /*# sourceMappingURL=WineCountryCabins.css.map */
