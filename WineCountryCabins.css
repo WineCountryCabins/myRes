@@ -551,7 +551,8 @@ div.rightGuest.confPage {
   width: 330px; }
 
 div#reservation-message {
-  border: 1px solid #BAADA8;
+  border: 1px solid #81BCEB;
+  background-color: #2e2b29;
   padding: 1em 30px;
   margin: 0 0 3em;
   height: 3em; }
