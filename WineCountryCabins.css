@@ -34,25 +34,27 @@ button {
   cursor: pointer;
   padding: .5em 1em;
   margin: 1em 0 .5em;
-  border: none;
-  background-color: rgba(186, 173, 168, 0.8);
-  color: #6A5B55;
+  border: 1px solid;
   font-size: 1.1em;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  border-color: #BAADA8;
+  background-color: transparent;
+  color: #BAADA8; }
   button:hover {
-    background-color: #dcd5d3; }
+    background-color: #BAADA8;
+    color: #6A5B55; }
   button.search, button.selectProduct {
     display: inline-block;
     padding: .5em 1em;
     margin: 1em 0 .5em;
-    border: 1px solid #81BCEB;
+    border-color: #81BCEB;
     background-color: transparent;
     color: #81BCEB; }
     button.search:hover, button.selectProduct:hover {
       background-color: #81BCEB;
       color: #404044; }
   .editReservation button.search {
-    border: 1px solid #BAADA8;
+    border-color: #BAADA8;
     background-color: transparent;
     color: #BAADA8; }
     .editReservation button.search:hover {
@@ -70,10 +72,10 @@ button {
     font-size: .9em;
     text-align: right; }
     #itinerary button.inline {
-      border: 1px solid #BAADA8;
+      margin-left: 25px;
+      border-color: #BAADA8;
       background-color: transparent;
-      color: #BAADA8;
-      margin-left: 25px; }
+      color: #BAADA8; }
       #itinerary button.inline:hover {
         background-color: #BAADA8;
         color: #6A5B55; }
@@ -83,12 +85,12 @@ button {
     font-size: 1em; }
     .cancel-form button.reservationButton {
       width: auto;
-      border: 1px solid #BAADA8;
+      border-color: #BAADA8;
       background-color: transparent;
       color: #BAADA8; }
-    .cancel-form button.reservationButton:hover {
-      background-color: #BAADA8;
-      color: #6A5B55; }
+      .cancel-form button.reservationButton:hover {
+        background-color: #BAADA8;
+        color: #6A5B55; }
 
 /* GLOBAL - HEADER / LOGO */
 div.bh_header {
@@ -172,9 +174,6 @@ div.leftBoxes {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: .1em; }
-
-.ui-widget-content[aria-describedby='detailDialog'] ~ .skeleton > p.leftBoxLabel {
-  display: none; }
 
 div.leftBox label {
   display: inline-block !important;
@@ -338,15 +337,15 @@ div.policies span.total::before {
 /* RESULTS PAGE - INVENTORY */
 #inventory {
   width: 760px;
-  background-color: transparent;
+  background-color: inherit;
   padding: 0 0 30px;
   margin: 0 0 0 30px;
-  color: #E6E6E6; }
+  color: #BAADA8; }
 
 /* RESULTS PAGE - INDIVIDUAL ROOM TYPES */
 div.typeContainer {
   padding-top: 30px;
-  border-top: 1px solid #867D79; }
+  border-top: 1px solid #BAADA8; }
 
 div.typeContainer:first-of-type {
   border-top: none; }
@@ -355,7 +354,7 @@ div.typeContainer:first-of-type {
 a.detailLink h2, #detailRoomTitle {
   color: white;
   margin: 0;
-  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
   letter-spacing: 2px;
   font-size: 3em;
   font-weight: 200;
@@ -365,7 +364,7 @@ a.detailLink h2, #detailRoomTitle {
 #detailRoomTitle {
   font-size: 2em;
   padding: .5em 0 1em;
-  color: #E6E6E6; }
+  color: white; }
 
 a.detailLink + p {
   padding: 0 30px 1em;
@@ -420,7 +419,7 @@ div.ratePlan a.detailLink {
 
 a.detailLink span {
   display: inline;
-  color: #D4C5BD;
+  color: #BAADA8;
   margin: 0 5px;
   float: none;
   width: auto; }
@@ -447,9 +446,9 @@ p.avgRate {
 /* _REVIEW PAGE - GUEST INFORMATION FIELDS */
 div.leftGuest,
 div.rightGuest {
+  padding: 0 30px 30px;
   margin: 0;
   background-color: inherit;
-  padding: 0 30px 30px;
   color: #BAADA8; }
 
 div.leftGuest {
@@ -461,12 +460,12 @@ div.rightGuest {
 
 div.leftGuest h4,
 div.rightGuest h4 {
-  text-transform: uppercase;
-  letter-spacing: 2px;
   padding-bottom: .4em;
   margin-top: 0;
   margin-bottom: .8em;
-  border-bottom: 1px solid #81BCEB; }
+  border-bottom: 1px solid #81BCEB;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
 
 div.leftGuest label,
 div.rightGuest label,
@@ -485,13 +484,13 @@ div.leftGuest select,
 div.leftGuest textarea,
 div.rightGuest input,
 div.rightGuest select {
-  width: 120px;
-  margin: .5em .2em .5em 0;
   display: inline-block;
-  background-color: #867D79;
-  border: 1px solid #BAADA8;
-  color: #E6E6E6;
+  width: 120px;
   padding: .25em .5em;
+  margin: .5em .2em .5em 0;
+  border: 1px solid #BAADA8;
+  background-color: rgba(134, 125, 121, 0.5);
+  color: #E6E6E6;
   font-size: 1em;
   vertical-align: middle; }
 
@@ -511,26 +510,25 @@ div.rightGuest select#i4Go_ExpirationMonth {
   width: 120px; }
 
 div.leftGuest textarea {
-  margin: 0 auto;
+  display: block;
   width: 100%;
   min-height: 6em;
-  display: block;
-  margin-top: 2em; }
+  margin: 2em 0 0; }
 
 #agreeToTerms {
-  float: left;
   display: inline;
   width: auto;
+  float: left;
   margin: 2.4em 10px 1.2em 30px;
   vertical-align: middle;
   font-size: 2em; }
 
 #agreeToTerms + label.required {
   display: inline-block;
-  text-align: left;
   width: auto !important;
+  margin: 0 0 2em 0;
   vertical-align: middle;
-  margin: 0 0 2em 0; }
+  text-align: left; }
 
 /* CONFIRMATION PAGE */
 div.leftGuest.confPage {
@@ -581,15 +579,14 @@ div.policies {
 
 /* DETAILS POPUP */
 .ui-widget-content {
-  background: #6A5B55 !important;
-  border: 1px solid #D4C5BD !important;
-  color: #D4C5BD !important; }
-
-.ui-dialog-content h1 {
-  font-size: 16px !important;
-  font-weight: normal !important;
-  line-height: 1.5;
-  padding: 15px; }
+  background: #211f1d !important;
+  border: 1px solid #BAADA8 !important;
+  color: #BAADA8 !important; }
+  .ui-widget-content h1 {
+    font-size: 16px !important;
+    font-weight: normal !important;
+    line-height: 1.5;
+    padding: 15px; }
 
 .ui-dialog .ui-dialog-title {
   font-size: 8px; }
@@ -598,35 +595,34 @@ div.policies {
   font-size: 1em; }
 
 p#detailRoomDescription {
+  display: inline-block;
   clear: left;
-  margin: 0;
-  padding: 1em 0;
-  width: 100%;
   float: left;
-  display: inline-block; }
+  width: 100%;
+  padding: 1em 0;
+  margin: 0; }
 
 .ui-widget-header {
   border: none !important;
-  background: #473C34 !important;
-  color: #D4C5BD !important;
+  background: #404044 !important;
+  color: white !important;
   font-weight: normal !important;
   font-size: 1em;
-  text-transform: uppercase !important;
-  color: #fff !important; }
+  text-transform: uppercase !important; }
 
 #detailDialog {
   border: none !important;
   padding: 0; }
 
 #detailMenu {
-  background-color: #473C34; }
+  background-color: #404044; }
 
 #detailMenu li {
   background: transparent;
   padding: 1em 2em .5em; }
 
 #detailMenu li.selected {
-  background: #6A5B55; }
+  background: #211f1d; }
 
 #roomDetail, #rateDetail, #taxFees {
   padding: 15px 30px; }
@@ -641,7 +637,7 @@ p#detailRoomDescription {
   width: 100%; }
 
 .roomDetailRight h3 {
-  color: #E6E6E6;
+  color: white;
   font-weight: normal;
   margin: 0;
   padding: 1em 0 0;
@@ -666,13 +662,13 @@ p#detailRoomDescription {
   font-weight: normal; }
 
 .rateDetailLeft h3:first-of-type {
-  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 200;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 1.6em;
   padding-bottom: .5em;
-  border-bottom: 1px solid #867D79; }
+  border-bottom: 1px solid #81BCEB; }
 
 .rateDetailLeft p {
   line-height: 1.4; }
@@ -687,11 +683,11 @@ p#detailRoomDescription {
 .taxFees th,
 #productList td,
 #productList th {
-  border-color: #867D79;
+  border-color: #BAADA8;
   font-weight: normal;
   text-transform: uppercase;
   color: #BAADA8; }
 
 #productBody td {
-  color: #fff; }
+  color: white; }
 /*# sourceMappingURL=WineCountryCabins.css.map */
