@@ -579,7 +579,7 @@ div.policies {
 
 /* DETAILS POPUP */
 .ui-widget-content {
-  background: #211f1d !important;
+  background: #404044 !important;
   border: 1px solid #BAADA8 !important;
   color: #BAADA8 !important; }
   .ui-widget-content h1 {
@@ -604,7 +604,7 @@ p#detailRoomDescription {
 
 .ui-widget-header {
   border: none !important;
-  background: #404044 !important;
+  background: inherit !important;
   color: white !important;
   font-weight: normal !important;
   font-size: 1em;
@@ -615,17 +615,18 @@ p#detailRoomDescription {
   padding: 0; }
 
 #detailMenu {
-  background-color: #404044; }
+  background-color: inherit; }
 
 #detailMenu li {
   background: transparent;
   padding: 1em 2em .5em; }
 
 #detailMenu li.selected {
-  background: #211f1d; }
+  background: #2e2b29; }
 
 #roomDetail, #rateDetail, #taxFees {
-  padding: 15px 30px; }
+  padding: 15px 30px;
+  background: #2e2b29; }
 
 #detailImage {
   width: 400px;
