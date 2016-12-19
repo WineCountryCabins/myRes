@@ -577,13 +577,20 @@ div.roomDescription {
 #roomTitle {
   font-size: 2em; }
 
-#roomDescription {
-  font-size: 1.1em; }
+#roomdescription {
+  font-size: 1.1em;
+  margin-left: 30px; }
 
-#roomThumbnail {
-  margin: 1em 0;
+#roomthumbnail {
+  margin: 0 30px 0 0;
   width: 400px;
-  height: 300px; }
+  height: 300px;
+  float: left; }
+
+#roomAmenities {
+  margin-left: 420px; }
+  #roomAmenities li {
+    margin-bottom: .4em; }
 
 div.policies {
   color: #BAADA8; }
