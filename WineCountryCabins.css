@@ -61,6 +61,7 @@ button {
       background-color: #BAADA8;
       color: #6A5B55; }
   button#submitCC {
+    display: block;
     margin: 1em auto; }
     div.roomDescription button#submitCC {
       display: inline-block;
@@ -205,7 +206,7 @@ div.leftBox input, div.leftBox select {
   padding: .25em .5em !important;
   margin: .5em .2em .5em 0 !important;
   vertical-align: middle !important;
-  border: 1px solid #BAADA8;
+  border: 1px solid #81BCEB;
   background-color: rgba(134, 125, 121, 0.5) !important;
   color: #E6E6E6 !important;
   font-size: 1em !important; }
@@ -351,7 +352,7 @@ div.policies span.total::before {
 /* RESULTS PAGE - INDIVIDUAL ROOM TYPES */
 div.typeContainer {
   padding-top: 30px;
-  border-top: 1px solid #BAADA8; }
+  border-top: 1px solid #69a2d0; }
 
 div.typeContainer:first-of-type {
   border-top: none; }
@@ -414,7 +415,7 @@ form.roomTypeForm {
 
 div.ratePlan {
   width: 500px;
-  border-color: #BAADA8;
+  border-color: #69a2d0;
   margin: 0 auto;
   float: none; }
 
@@ -498,7 +499,7 @@ div.rightGuest select {
   width: 120px;
   padding: .25em .5em;
   margin: .5em .2em .5em 0;
-  border: 1px solid #BAADA8;
+  border: 1px solid #81BCEB;
   background-color: rgba(134, 125, 121, 0.5);
   color: #E6E6E6;
   font-size: 1em;
@@ -526,10 +527,8 @@ div.leftGuest textarea {
   margin: 2em 0 0; }
 
 #agreeToTerms {
-  display: inline;
   width: auto;
-  float: left;
-  margin: 2.4em 10px 1.2em 30px;
+  margin: 1px .5em 1em 0;
   vertical-align: middle;
   font-size: 2em; }
 
@@ -598,7 +597,7 @@ div.policies {
 /* DETAILS POPUP */
 .ui-widget-content {
   background: #404044 !important;
-  border: 1px solid #BAADA8 !important;
+  border: 1px solid #69a2d0 !important;
   color: #BAADA8 !important; }
   .ui-widget-content h1 {
     font-size: 16px !important;
@@ -704,7 +703,7 @@ p#detailRoomDescription {
 .taxFees th,
 #productList td,
 #productList th {
-  border-color: #BAADA8;
+  border-color: #69a2d0;
   font-weight: normal;
   text-transform: uppercase;
   color: #BAADA8; }
