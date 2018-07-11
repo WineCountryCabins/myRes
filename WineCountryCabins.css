@@ -155,10 +155,7 @@ div.leftBoxes {
   background-color: #404044 !important;
   color: #BAADA8 !important; }
 
-.skeleton > p.leftBoxLabel {
-  display: none; }
-
-.skeleton > #inventory:empty ~ p.leftBoxLabel {
+p.leftBoxLabel #message {
   display: block;
   border-bottom: none;
   width: 700px;
