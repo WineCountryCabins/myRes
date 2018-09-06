@@ -343,7 +343,7 @@ div.policies span.total::before {
 /* RESULTS PAGE - INVENTORY */
 #inventory {
   width: 760px;
-  background-color: #3c3835 !important;
+  background-color: transparent !important;
   padding: 0 0 30px;
   margin: 0 0 0 30px;
   color: #BAADA8; }
@@ -351,7 +351,8 @@ div.policies span.total::before {
 /* RESULTS PAGE - INDIVIDUAL ROOM TYPES */
 div.typeContainer {
   padding-top: 30px;
-  border-top: 1px solid #69a2d0; }
+  border-top: 1px solid #69a2d0;
+  background-color: #3c3835 !important; }
 
 div.typeContainer:first-of-type {
   border-top: none; }
