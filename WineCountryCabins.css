@@ -209,7 +209,7 @@ div.leftBox input, div.leftBox select {
   padding: .25em .5em !important;
   margin: .5em .2em .5em 0 !important;
   vertical-align: middle !important;
-  border: 1px solid #a5a5ab;
+  border: 1px solid #98989e;
   background-color: rgba(134, 125, 121, 0.5) !important;
   color: #E6E6E6 !important;
   font-size: 1em !important; }
@@ -520,7 +520,7 @@ div.rightGuest select {
   width: 120px;
   padding: .25em .5em;
   margin: .5em .2em .5em 0;
-  border: 1px solid #a5a5ab;
+  border: 1px solid #98989e;
   background-color: rgba(134, 125, 121, 0.5);
   color: #E6E6E6;
   font-size: 1em;
