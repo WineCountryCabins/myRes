@@ -278,6 +278,14 @@ div.leftBox div.smallInput {
 #moreSearchOptions {
   display: none; }
 
+.leftBox .smallInput label[for="adults"] {
+  height: 1.25em;
+  line-height: 1.25em;
+  overflow: hidden;
+  padding-top: 1em !important; }
+  .leftBox .smallInput label[for="adults"]::before {
+    content: "Adults"; }
+
 /* GLOBAL - LEFT BOX - EDIT RESERVATION */
 .leftBox.editReservation fieldset.basic label {
   width: 85px !important;
