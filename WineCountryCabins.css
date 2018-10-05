@@ -261,14 +261,17 @@ div.leftBox div.smallInput {
   color: #BAADA8; }
 
 #showMoreOptions {
-  display: block;
-  clear: both;
-  float: none;
+  display: inline-block;
   padding: 1em 0 0;
+  margin: 1em 0;
   text-transform: uppercase;
   letter-spacing: 1px; }
   #showMoreOptions:hover {
     text-decoration: underline; }
+
+#moreSearchOptions .fullInput:first-of-type,
+#moreSearchOptions .fullInput:last-of-type {
+  display: none; }
 
 /* GLOBAL - LEFT BOX - EDIT RESERVATION */
 .leftBox.editReservation fieldset.basic label {
