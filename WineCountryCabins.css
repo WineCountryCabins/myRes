@@ -46,14 +46,24 @@ button {
   button:hover {
     background-color: #BAADA8;
     color: #6A5B55; }
-  button.search, button.selectProduct {
+  button.search {
+    display: block;
+    padding: .5em 1em;
+    margin: 2.5em 0 .5em;
+    border-color: #81BCEB;
+    background-color: transparent;
+    color: #81BCEB; }
+    button.search:hover {
+      background-color: #81BCEB;
+      color: #404044; }
+  button.selectProduct {
     display: inline-block;
     padding: .5em 1em;
     margin: 1em 0 .5em;
     border-color: #81BCEB;
     background-color: transparent;
     color: #81BCEB; }
-    button.search:hover, button.selectProduct:hover {
+    button.selectProduct:hover {
       background-color: #81BCEB;
       color: #404044; }
   .editReservation button.search {
@@ -220,10 +230,12 @@ div.leftBox fieldset input {
   float: none !important; }
 
 div.leftBox div.smallInput {
-  width: 33% !important;
-  padding: 0 !important;
-  margin: 1em 0 0 !important;
-  text-align: center !important; }
+  width: 32%;
+  padding: 0;
+  margin: 1em 0 0;
+  text-align: center;
+  display: inline-block;
+  float: none; }
   div.leftBox div.smallInput:first-of-type {
     text-align: left !important; }
     div.leftBox div.smallInput:first-of-type label {
@@ -234,7 +246,7 @@ div.leftBox div.smallInput {
       text-align: right !important; }
   div.leftBox div.smallInput label {
     width: 100% !important;
-    margin: 0 0 .25em !important;
+    margin: 0 0 .5em !important;
     text-align: center !important; }
   div.leftBox div.smallInput input, div.leftBox div.smallInput select {
     margin: 0 !important;
