@@ -269,9 +269,10 @@ div.leftBox div.smallInput {
   #showMoreOptions:hover {
     text-decoration: underline; }
 
-#moreSearchOptions .fullInput:first-of-type,
-#moreSearchOptions .fullInput:last-of-type {
+#moreSearchOptions .fullInput {
   display: none; }
+  #moreSearchOptions .fullInput:last-of-type {
+    display: block; }
 
 /* GLOBAL - LEFT BOX - EDIT RESERVATION */
 .leftBox.editReservation fieldset.basic label {
