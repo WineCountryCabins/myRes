@@ -295,7 +295,8 @@ span.total {
   font-weight: bold; }
 
 #itinerary > .basic > div > span.label + span.value + span.label {
-  margin: .2em 1.5em .2em 0; }
+  margin: .2em 1.5em .2em 0;
+  color: #BAADA8; }
 
 /* _REVIEW PAGE - LEFT BOX - COST SUMMARY */
 span.total::before,
@@ -535,6 +536,16 @@ div.rightGuest select {
   color: #E6E6E6;
   font-size: 1em;
   vertical-align: middle; }
+  div.leftGuest input:active, div.leftGuest input:focus,
+  div.leftGuest select:active,
+  div.leftGuest select:focus,
+  div.leftGuest textarea:active,
+  div.leftGuest textarea:focus,
+  div.rightGuest input:active,
+  div.rightGuest input:focus,
+  div.rightGuest select:active,
+  div.rightGuest select:focus {
+    border-color: #81BCEB; }
 
 .leftGuest #guestInfo > div:last-child {
   margin-top: 2em; }
