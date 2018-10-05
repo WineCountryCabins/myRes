@@ -213,6 +213,8 @@ div.leftBox input, div.leftBox select {
   background-color: rgba(134, 125, 121, 0.5) !important;
   color: #E6E6E6 !important;
   font-size: 1em !important; }
+  div.leftBox input:active, div.leftBox input:focus, div.leftBox select:active, div.leftBox select:focus {
+    border-color: #81BCEB; }
 
 div.leftBox fieldset input {
   float: none !important; }
