@@ -86,7 +86,7 @@ button {
     font-size: .9em;
     text-align: right; }
     #itinerary button.inline {
-      margin-left: 25px;
+      margin-left: 16px;
       border-color: #BAADA8;
       background-color: transparent;
       color: #BAADA8; }
@@ -278,16 +278,12 @@ div.leftBox div.smallInput {
 #moreSearchOptions {
   display: none; }
 
-.leftBox .smallInput label[for="adults"],
-div > span.label + span.value + span.label,
-#itinerary > .basic > div > span.label + span.value + span.label {
+.leftBox .smallInput label[for="adults"] {
   height: 1.25em;
   line-height: 1.25em;
   overflow: hidden;
   padding-top: 1em !important; }
-  .leftBox .smallInput label[for="adults"]::before,
-  div > span.label + span.value + span.label::before,
-  #itinerary > .basic > div > span.label + span.value + span.label::before {
+  .leftBox .smallInput label[for="adults"]::before {
     content: "Adults"; }
 
 /* GLOBAL - LEFT BOX - EDIT RESERVATION */
