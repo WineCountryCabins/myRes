@@ -222,8 +222,18 @@ div.leftBox div.smallInput {
   padding: 0 !important;
   margin: 1em 0 0 !important;
   text-align: center !important; }
+  div.leftBox div.smallInput:first-of-type {
+    text-align: left !important; }
+    div.leftBox div.smallInput:first-of-type label {
+      text-align: left !important; }
+  div.leftBox div.smallInput:last-of-type {
+    text-align: right !important; }
+    div.leftBox div.smallInput:last-of-type label {
+      text-align: right !important; }
   div.leftBox div.smallInput label {
-    margin: 0 0 .25em !important; }
+    width: 100% !important;
+    margin: 0 0 .25em !important;
+    text-align: center !important; }
   div.leftBox div.smallInput input, div.leftBox div.smallInput select {
     padding: 0 !important;
     margin: 0 !important;
