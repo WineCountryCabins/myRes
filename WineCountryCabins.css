@@ -278,12 +278,16 @@ div.leftBox div.smallInput {
 #moreSearchOptions {
   display: none; }
 
-.leftBox .smallInput label[for="adults"] {
+.leftBox .smallInput label[for="adults"],
+div > span.label + span.value + span.label,
+#itinerary > .basic > div > span.label + span.value + span.label {
   height: 1.25em;
   line-height: 1.25em;
   overflow: hidden;
   padding-top: 1em !important; }
-  .leftBox .smallInput label[for="adults"]::before {
+  .leftBox .smallInput label[for="adults"]::before,
+  div > span.label + span.value + span.label::before,
+  #itinerary > .basic > div > span.label + span.value + span.label::before {
     content: "Adults"; }
 
 /* GLOBAL - LEFT BOX - EDIT RESERVATION */
