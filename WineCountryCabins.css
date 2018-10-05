@@ -237,7 +237,7 @@ div.leftBox div.smallInput {
   div.leftBox div.smallInput input, div.leftBox div.smallInput select {
     margin: 0 !important;
     line-height: 1 !important;
-    text-align: center !important; }
+    text-align: left !important; }
   div.leftBox div.smallInput input {
     width: 50% !important;
     padding: 2px .5em !important; }
