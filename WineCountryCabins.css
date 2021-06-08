@@ -39,7 +39,8 @@ button {
   padding: .5em 1em;
   margin: 1em 0 .5em;
   border: 1px solid;
-  font-size: 1.1em;
+  font-size: 1.3em;
+  letter-spacing: .1em;
   text-transform: uppercase;
   font-family: "minerva-modern", Helvetica, sans-serif;
   border-color: #e3ddda;
@@ -57,7 +58,7 @@ button {
     color: #C4AC8D; }
     button.search:hover {
       background-color: #C4AC8D;
-      color: #4F4534; }
+      color: #000000; }
   button.selectProduct {
     display: inline-block;
     padding: .5em 1em;
@@ -67,7 +68,7 @@ button {
     color: #C4AC8D; }
     button.selectProduct:hover {
       background-color: #C4AC8D;
-      color: #4F4534; }
+      color: #000000; }
   .editReservation button.search {
     border-color: #e3ddda;
     background-color: transparent;
@@ -104,7 +105,7 @@ button {
     color: #C4AC8D; }
     button.reservationButton:hover {
       background-color: #C4AC8D;
-      color: #4F4534; }
+      color: #000000; }
     .cancel-form button.reservationButton {
       width: auto;
       border-color: #e3ddda;
