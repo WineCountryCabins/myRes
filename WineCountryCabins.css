@@ -41,6 +41,7 @@ button {
   border: 1px solid;
   font-size: 1.1em;
   text-transform: uppercase;
+  font-family: "minerva-modern", Helvetica, sans-serif;
   border-color: #e3ddda;
   background-color: transparent;
   color: #e3ddda; }
@@ -648,7 +649,7 @@ div.policies {
 
 /* DETAILS POPUP */
 .ui-widget-content {
-  background: #4F4534 !important;
+  background: #2c2924 !important;
   border: 1px solid #9c9182 !important;
   color: #D4CAC3 !important;
   font-family: "minerva-modern", Helvetica, sans-serif !important; }
