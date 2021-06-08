@@ -155,7 +155,7 @@ li.breadcrumb {
   padding: 1.5em 15px 1em;
   background-color: #000000;
   color: #D4CAC3;
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "minerva-modern", Helvetica, sans-serif;
   font-size: 1.8em;
   font-weight: 200;
   letter-spacing: 1px;
@@ -650,7 +650,8 @@ div.policies {
 .ui-widget-content {
   background: #4F4534 !important;
   border: 1px solid #9c9182 !important;
-  color: #D4CAC3 !important; }
+  color: #D4CAC3 !important;
+  font-family: "minerva-modern", Helvetica, sans-serif !important; }
   .ui-widget-content h1 {
     font-size: 16px !important;
     font-weight: normal !important;
