@@ -289,6 +289,13 @@ div.leftBox div.smallInput {
   .leftBox .smallInput label[for="adults"]::before {
     content: "Adults"; }
 
+.ui-datepicker-header.ui-widget-header {
+  border: 1px solid #999999;
+  background: #dadada url("images/ui-bg_glass_75_dadada_1x400.png") 50% 50% repeat-x;
+  font-weight: normal;
+  color: #212121;
+  opacity: 65%; }
+
 /* GLOBAL - LEFT BOX - EDIT RESERVATION */
 .leftBox.editReservation fieldset.basic label {
   width: 85px !important;
