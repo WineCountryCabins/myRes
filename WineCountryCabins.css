@@ -294,8 +294,17 @@ div.leftBox div.smallInput {
   border: 1px solid #999999;
   background: #dadada url("images/ui-bg_glass_75_dadada_1x400.png") 50% 50% repeat-x;
   font-weight: normal;
-  color: #212121;
-  opacity: 65%; }
+  color: #212121; }
+
+.ui-datepicker-header.ui-widget-header .ui-datepicker-prev {
+  opacity: 45%; }
+  .ui-datepicker-header.ui-widget-header .ui-datepicker-prev.ui-state-hover {
+    opacity: 60%; }
+
+.ui-datepicker-header.ui-widget-header .ui-datepicker-next {
+  opacity: 75%; }
+  .ui-datepicker-header.ui-widget-header .ui-datepicker-next.ui-state-hover {
+    opacity: 100%; }
 
 /* GLOBAL - LEFT BOX - EDIT RESERVATION */
 .leftBox.editReservation fieldset.basic label {
